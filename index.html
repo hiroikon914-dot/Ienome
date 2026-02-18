@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>家の目 | 古民家クエスト</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== STARS BACKGROUND ===== -->
+  <div class="stars" id="stars"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-block">
+        <div class="pixel-house">
+          <div class="ph-roof"></div>
+          <div class="ph-wall">
+            <div class="ph-window"></div>
+            <div class="ph-door"></div>
+          </div>
+        </div>
+        <div class="logo-text">
+          <h1 class="site-title">家の目</h1>
+          <p class="site-subtitle">IENOME QUEST</p>
+        </div>
+      </div>
+      <nav class="header-nav">
+        <a href="#quests" class="nav-btn">クエスト</a>
+        <a href="#about" class="nav-btn">この家について</a>
+        <a href="#log" class="nav-btn">冒険ログ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="typewriter-wrap">
+        <p class="typewriter" id="typewriter"></p>
+      </div>
+      <h2 class="hero-title">古民家を<br>みんなで<br>よみがえらせよう</h2>
+      <p class="hero-desc">
+        岐阜県の山あいに佇む築150年の古民家「家の目」。<br>
+        この家を守る冒険に、あなたも参加しませんか？<br>
+        クエストを選んで、投げ銭で応援してください。
+      </p>
+      <a href="#quests" class="cta-btn pixel-btn">
+        <span>クエストボードへ</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h12M8 2l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg>
+      </a>
+    </div>
+    <div class="hero-scene">
+      <div class="mc-world">
+        <div class="mc-sky"></div>
+        <div class="mc-mountains">
+          <div class="mc-mountain m1"></div>
+          <div class="mc-mountain m2"></div>
+          <div class="mc-mountain m3"></div>
+        </div>
+        <div class="mc-ground">
+          <div class="mc-house">
+            <div class="mc-house-roof"></div>
+            <div class="mc-house-body">
+              <div class="mc-house-window left"></div>
+              <div class="mc-house-door"></div>
+              <div class="mc-house-window right"></div>
+            </div>
+          </div>
+          <div class="mc-tree t1"><div class="mc-tree-top"></div><div class="mc-tree-trunk"></div></div>
+          <div class="mc-tree t2"><div class="mc-tree-top"></div><div class="mc-tree-trunk"></div></div>
+          <div class="mc-tree t3"><div class="mc-tree-top"></div><div class="mc-tree-trunk"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats-bar">
+    <div class="stat-item">
+      <span class="stat-icon">🏠</span>
+      <div>
+        <div class="stat-num" data-target="150">0</div>
+        <div class="stat-label">年の歴史</div>
+      </div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-icon">⚔️</span>
+      <div>
+        <div class="stat-num" data-target="12">0</div>
+        <div class="stat-label">進行中クエスト</div>
+      </div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-icon">👥</span>
+      <div>
+        <div class="stat-num" data-target="47">0</div>
+        <div class="stat-label">サポーター</div>
+      </div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-icon">💰</span>
+      <div>
+        <div class="stat-num" data-target="328000" data-prefix="¥">0</div>
+        <div class="stat-label">投げ銭総額</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about-section" id="about">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="pixel-icon">📜</div>
+        <h2 class="section-title">この家について</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card mc-panel">
+          <div class="about-card-icon">🌲</div>
+          <h3>どんな家？</h3>
+          <p>岐阜県飛騨地方の山村に残る築約150年の茅葺き古民家。かつては大家族が暮らし、囲炉裏を囲んで語り合った、温かな空間です。</p>
+        </div>
+        <div class="about-card mc-panel">
+          <div class="about-card-icon">⚡</div>
+          <h3>なぜ今？</h3>
+          <p>屋根の老朽化・柱の傾き・土台の腐食など、このままでは10年以内に倒壊の危機。地域の記憶を次世代へつなぐため、今すぐ修復が必要です。</p>
+        </div>
+        <div class="about-card mc-panel">
+          <div class="about-card-icon">🤝</div>
+          <h3>あなたの力を</h3>
+          <p>プロの職人と地域ボランティアが協力して修復を進めています。クエストに投げ銭することで、直接その工事費用として使われます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUEST BOARD ===== -->
+  <section class="quest-section" id="quests">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="pixel-icon">⚔️</div>
+        <h2 class="section-title">クエストボード</h2>
+      </div>
+      <p class="section-desc">修復に必要な工事がクエストになっています。<br>興味を持ったクエストに投げ銭して応援しよう！</p>
+
+      <!-- Filter -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">すべて</button>
+        <button class="filter-btn" data-filter="urgent">緊急</button>
+        <button class="filter-btn" data-filter="inprogress">進行中</button>
+        <button class="filter-btn" data-filter="open">募集中</button>
+        <button class="filter-btn" data-filter="completed">完了</button>
+      </div>
+
+      <!-- Quest Grid -->
+      <div class="quest-grid" id="questGrid">
+        <!-- Quests are injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ADVENTURE LOG ===== -->
+  <section class="log-section" id="log">
+    <div class="section-inner">
+      <div class="section-header">
+        <div class="pixel-icon">📖</div>
+        <h2 class="section-title">冒険ログ</h2>
+      </div>
+      <div class="log-list">
+        <div class="log-entry">
+          <span class="log-date">2026-02-15</span>
+          <span class="log-badge badge-gold">投げ銭</span>
+          <span class="log-text">たろう冒険者が「屋根の修復」クエストに <strong>¥5,000</strong> 投げ銭しました！</span>
+        </div>
+        <div class="log-entry">
+          <span class="log-date">2026-02-14</span>
+          <span class="log-badge badge-green">完了</span>
+          <span class="log-text">「土間の整備」クエストが達成されました！ ありがとうございます。</span>
+        </div>
+        <div class="log-entry">
+          <span class="log-date">2026-02-13</span>
+          <span class="log-badge badge-gold">投げ銭</span>
+          <span class="log-text">はなこ冒険者が「囲炉裏の復元」クエストに <strong>¥10,000</strong> 投げ銭しました！</span>
+        </div>
+        <div class="log-entry">
+          <span class="log-date">2026-02-10</span>
+          <span class="log-badge badge-blue">開始</span>
+          <span class="log-text">「縁側の修繕」クエストが新たに追加されました！</span>
+        </div>
+        <div class="log-entry">
+          <span class="log-date">2026-02-08</span>
+          <span class="log-badge badge-gold">投げ銭</span>
+          <span class="log-text">さくら冒険者が「柱の補強」クエストに <strong>¥3,000</strong> 投げ銭しました！</span>
+        </div>
+        <div class="log-entry">
+          <span class="log-date">2026-02-01</span>
+          <span class="log-badge badge-blue">開始</span>
+          <span class="log-text">「家の目」プロジェクトがスタートしました！</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="footer-title">家の目</span>
+        <span class="footer-sub">IENOME QUEST PROJECT</span>
+      </div>
+      <p class="footer-copy">© 2026 家の目プロジェクト. All rights reserved.</p>
+      <p class="footer-note">投げ銭はすべて古民家修復費用として使用されます。</p>
+    </div>
+  </footer>
+
+  <!-- ===== DONATE MODAL ===== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal mc-panel" id="modal">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-header">
+        <div class="modal-icon" id="modalIcon"></div>
+        <h3 class="modal-title" id="modalTitle"></h3>
+        <div class="modal-status" id="modalStatus"></div>
+      </div>
+      <div class="modal-progress-wrap">
+        <div class="modal-progress-bar">
+          <div class="modal-progress-fill" id="modalProgressFill"></div>
+        </div>
+        <div class="modal-progress-label">
+          <span id="modalRaised">¥0</span> / <span id="modalGoal">¥0</span>
+        </div>
+      </div>
+      <p class="modal-desc" id="modalDesc"></p>
+      <div class="donate-amounts">
+        <button class="amount-btn" data-amount="500">¥500</button>
+        <button class="amount-btn" data-amount="1000">¥1,000</button>
+        <button class="amount-btn" data-amount="3000">¥3,000</button>
+        <button class="amount-btn" data-amount="5000">¥5,000</button>
+        <button class="amount-btn" data-amount="10000">¥10,000</button>
+        <button class="amount-btn custom-amount-btn" data-amount="custom">任意の金額</button>
+      </div>
+      <div class="custom-input-wrap" id="customInputWrap">
+        <input type="number" class="custom-input" id="customInput" placeholder="金額を入力 (円)" min="100" />
+      </div>
+      <button class="donate-submit pixel-btn" id="donateSubmit">
+        <span>投げ銭する！</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
