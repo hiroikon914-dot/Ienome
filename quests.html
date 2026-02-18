@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ienome World クエスト一覧 — 進行中・完了・ロック中のすべてのクエストを確認できます。">
+  <title>Quests | Ienome World</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== ナビゲーション ========== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">⛏ IENOME</a>
+      <ul class="nav__links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="quests.html" class="active">QUESTS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== ページバナー ========== -->
+  <div class="page-banner">
+    <div class="container">
+      <h1 class="page-banner__title">⚔ Quest Board</h1>
+      <p class="page-banner__sub">現在進行中・完了・ロック中のすべてのクエスト</p>
+    </div>
+  </div>
+
+  <!-- ========== クエスト一覧 ========== -->
+  <main class="section">
+    <div class="container">
+
+      <!-- フィルタ & ソート -->
+      <div class="filter-bar">
+        <span class="filter-bar__label">Category:</span>
+        <!-- quests.js が動的に生成します -->
+        <div id="filter-bar" style="display:contents;"></div>
+
+        <select id="sort-select" class="sort-select">
+          <option value="newest">新着順</option>
+          <option value="progress">進捗率（高い順）</option>
+          <option value="goal">目標金額（高い順）</option>
+        </select>
+      </div>
+
+      <!-- クエストカード一覧（quests.js が挿入） -->
+      <div id="quest-list">
+        <div class="state-message">
+          <p>[ LOADING<span class="loading-dots"></span> ]</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ========== フッター ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__links">
+        <a href="index.html">HOME</a>
+        <a href="quests.html">QUESTS</a>
+        <a href="about.html">ABOUT</a>
+        <a href="https://www.youtube.com/@IenomeWorld" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.instagram.com/ienome_world/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p>&copy; 2026 Ienome World. All quests are real.</p>
+    </div>
+  </footer>
+
+  <!-- JS: utils → quests の順で読み込む -->
+  <script src="js/utils.js"></script>
+  <script src="js/quests.js"></script>
+</body>
+</html>

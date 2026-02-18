@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ienome World（家の芽ワールド）について — 世界観・参加方法・透明性のルール">
+  <title>About | Ienome World</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== ナビゲーション ========== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">⛏ IENOME</a>
+      <ul class="nav__links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="quests.html">QUESTS</a></li>
+        <li><a href="about.html" class="active">ABOUT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== ページバナー ========== -->
+  <div class="page-banner">
+    <div class="container">
+      <h1 class="page-banner__title">📜 World Lore</h1>
+      <p class="page-banner__sub">Ienome World とは何か、なぜ作るのか</p>
+    </div>
+  </div>
+
+  <!-- ========== About コンテンツ ========== -->
+  <main class="section">
+    <div class="container" style="max-width:800px;">
+
+      <!-- 世界観 -->
+      <div class="quest-detail__section mt-4">
+        <div class="quest-detail__section-title">The World</div>
+        <div class="pixel-box" style="padding:24px;">
+          <p style="font-size:0.95rem; line-height:2; color:var(--color-text);">
+            ここは、ボロボロな実家を舞台にした<strong style="color:var(--color-accent)">参加型ワールド</strong>です。<br><br>
+            家の問題——水漏れ、古びた設備、非効率なエネルギー——を「クエスト」として公開し、
+            支援・記録・DIYで一つずつ攻略していきます。<br><br>
+            参加する人はギルドメンバー。支援はゲーム内通貨。修繕の記録はログ。
+            見ているだけでもワールドの一員です。<br><br>
+            <strong style="color:var(--color-accent2)">参加は消費ではなく、参加です。</strong>
+          </p>
+        </div>
+      </div>
+
+      <!-- 参加の3レーン -->
+      <div class="quest-detail__section mt-8">
+        <div class="quest-detail__section-title">3 Lanes of Participation — 参加の方法</div>
+        <div class="lane-grid">
+          <div class="lane-card">
+            <div class="lane-card__icon">⚡</div>
+            <div class="lane-card__title">Quest Support</div>
+            <div class="lane-card__desc">
+              クエストを支援する。金額の大小は関係なく、すべての支援が家の進化に直結します。進捗はリアルタイムに更新されます。
+            </div>
+          </div>
+          <div class="lane-card">
+            <div class="lane-card__icon">🪚</div>
+            <div class="lane-card__title">Guild Participate</div>
+            <div class="lane-card__desc">
+              実際に家に来て一緒にDIYする、アドバイスをくれる、資材を提供する。リアルで関わりたい人のレーンです。
+            </div>
+          </div>
+          <div class="lane-card">
+            <div class="lane-card__icon">👁</div>
+            <div class="lane-card__title">Watch &amp; Share</div>
+            <div class="lane-card__desc">
+              YouTube・Instagramをフォローし、記録を見届ける。シェアで世界に広めることも立派な参加です。
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 透明性ルール -->
+      <div class="quest-detail__section mt-8">
+        <div class="quest-detail__section-title">Safety &amp; Transparency Rules</div>
+        <ul class="rules-list">
+          <li>支援金は該当クエストの資材・施工費のみに使用します。用途外には使いません。</li>
+          <li>使用金額はquests.jsonを更新することで公開します（手動更新）。</li>
+          <li>決済は外部の信頼できるサービス（Stripe / PayPal 等）で処理します。このサイトはカード情報を一切扱いません。</li>
+          <li>クエストが達成不可能になった場合、支援者に返金またはクレジット（他クエストへの振り替え）で対応します。</li>
+          <li>個人情報（住所・氏名）はサイト上で収集しません。</li>
+          <li>Ienome Worldはボランティア・共感型プロジェクトです。サービスではありません。</li>
+        </ul>
+      </div>
+
+      <!-- 連絡先・SNS -->
+      <div class="quest-detail__section mt-8">
+        <div class="quest-detail__section-title">Contact &amp; SNS</div>
+        <div class="pixel-box" style="padding:24px;">
+          <p style="font-size:0.9rem; color:var(--color-text-dim); margin-bottom:16px;">
+            質問・コラボ・資材提供などのご連絡はSNSのDMか、YouTubeのコメント欄でどうぞ。
+          </p>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <a href="https://www.youtube.com/@IenomeWorld"
+               target="_blank" rel="noopener noreferrer"
+               class="btn btn--gold">▶ YouTube</a>
+            <a href="https://www.instagram.com/ienome_world/"
+               target="_blank" rel="noopener noreferrer"
+               class="btn" style="border-color:#c13584;color:#c13584;">📷 Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- クエスト一覧へ -->
+      <div class="text-center mt-8 mb-8">
+        <a href="quests.html" class="btn btn--primary">⚔ クエスト一覧を見る</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ========== フッター ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__links">
+        <a href="index.html">HOME</a>
+        <a href="quests.html">QUESTS</a>
+        <a href="about.html">ABOUT</a>
+        <a href="https://www.youtube.com/@IenomeWorld" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.instagram.com/ienome_world/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p>&copy; 2026 Ienome World. All quests are real.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+[
+  {
+    "id": "solar-lv1",
+    "name": "太陽光温水器 Lv1",
+    "icon": "☀️",
+    "category": "BUILD",
+    "status": "active",
+    "goalAmount": 120000,
+    "currentAmount": 35000,
+    "donationUrl": "https://example.com/pay/solar-lv1",
+    "shortDescription": "シャワーのお湯を太陽で作る。世界のエネルギー自給率を上げる。",
+    "why": "現在は電気給湯器に頼っており、電気代が高く環境負荷も大きい。特に夏場は太陽熱で十分まかなえるはずなのに活用できていない状態。",
+    "outcome": "晴れの日は太陽で温水が確保できる。光熱費と環境負荷が下がる。Ienome Worldの「エネルギー自給率」が上がり、次の太陽光クエストが解放される。",
+    "budgetBreakdown": [
+      { "label": "温水器本体（200L平板型）", "amount": 80000 },
+      { "label": "配管・継手・断熱材", "amount": 20000 },
+      { "label": "施工消耗品・工具", "amount": 20000 }
+    ],
+    "beforeImage": "assets/placeholder_before.png",
+    "afterImage": "assets/placeholder_after.png",
+    "youtubeUrl": "",
+    "instagramUrl": "",
+    "updates": [
+      { "date": "2026-02-18", "text": "クエスト発生。現状の課題を整理。電気代の請求書を確認、月平均¥8,000が給湯関連と判明。" },
+      { "date": "2026-02-20", "text": "温水器の部材候補を3社から見積もり中。DIY設置が可能かも調査開始。" }
+    ]
+  },
+  {
+    "id": "toilet-reform",
+    "name": "トイレ改修クエスト",
+    "icon": "🚽",
+    "category": "BUILD",
+    "status": "active",
+    "goalAmount": 80000,
+    "currentAmount": 72000,
+    "donationUrl": "https://example.com/pay/toilet-reform",
+    "shortDescription": "築古トイレを快適・節水型に刷新。毎日使う場所から家を変える。",
+    "why": "現在のトイレは1980年代製で、水漏れ・節水機能なし・使い勝手が悪い状態が続いている。毎日使う場所の快適性はQOLに直結する。",
+    "outcome": "節水型トイレに変わり、水道代が月約¥2,000削減見込み。見た目も清潔になりゲストを呼べる家になる。",
+    "budgetBreakdown": [
+      { "label": "便器本体（節水型）", "amount": 55000 },
+      { "label": "タンク・ウォシュレット", "amount": 15000 },
+      { "label": "施工・防水処理", "amount": 10000 }
+    ],
+    "beforeImage": "assets/placeholder_before.png",
+    "afterImage": "assets/placeholder_after.png",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "instagramUrl": "",
+    "updates": [
+      { "date": "2026-01-10", "text": "クエスト発生。水漏れが悪化してきたため優先度を上げた。" },
+      { "date": "2026-01-25", "text": "便器のメーカー比較完了。TOTO製に決定。" },
+      { "date": "2026-02-05", "text": "支援のおかげで資材購入完了！来週末に設置作業予定。", "videoUrl": "" },
+      { "date": "2026-02-15", "text": "設置完了！節水＆ウォシュレット付きになった。最高すぎる。" }
+    ]
+  },
+  {
+    "id": "kitchen-upgrade",
+    "name": "キッチン強化計画 Lv1",
+    "icon": "🍳",
+    "category": "LIFE",
+    "status": "active",
+    "goalAmount": 60000,
+    "currentAmount": 12000,
+    "donationUrl": "https://example.com/pay/kitchen-upgrade",
+    "shortDescription": "料理できる家はゲームが強い。キッチンを現役に戻す大作戦。",
+    "why": "コンロが一口しかなく、シンクの排水も怪しい。自炊率を上げたいが設備が足を引っ張っている。外食費月¥30,000超えを自炊で半減させたい。",
+    "outcome": "2口コンロ＋食洗機対応シンクで料理の幅が広がる。自炊率が上がり食費・外食費を削減。料理動画コンテンツも作りやすくなる。",
+    "budgetBreakdown": [
+      { "label": "2口コンロ（ガス）", "amount": 25000 },
+      { "label": "シンク交換・排水修繕", "amount": 20000 },
+      { "label": "棚・収納改善", "amount": 15000 }
+    ],
+    "beforeImage": "assets/placeholder_before.png",
+    "afterImage": "assets/placeholder_after.png",
+    "youtubeUrl": "",
+    "instagramUrl": "",
+    "updates": [
+      { "date": "2026-02-01", "text": "クエスト登録。排水の詰まりがひどくなってきた。業者見積もりは¥80,000と言われ自力解決を模索中。" }
+    ]
+  },
+  {
+    "id": "lore-first-record",
+    "name": "Ienome 創世記を書く",
+    "icon": "📜",
+    "category": "LORE",
+    "status": "cleared",
+    "goalAmount": 0,
+    "currentAmount": 0,
+    "donationUrl": "",
+    "shortDescription": "この家の歴史と、なぜワールドを作るのかを文章に残す。",
+    "why": "「なぜ家を直すのか」「なぜ公開するのか」を言語化しないと、ただのDIY記録になってしまう。世界観の根幹となるLOREが必要だった。",
+    "outcome": "about.htmlに世界観が書かれ、共感した人が集まるようになった。ワールドの土台が完成。",
+    "budgetBreakdown": [],
+    "beforeImage": "assets/placeholder_before.png",
+    "afterImage": "assets/placeholder_after.png",
+    "youtubeUrl": "",
+    "instagramUrl": "",
+    "updates": [
+      { "date": "2026-02-10", "text": "文章を書き始めた。3回書き直した。" },
+      { "date": "2026-02-17", "text": "CLEARED！about.htmlに世界観を掲載。" }
+    ]
+  },
+  {
+    "id": "bath-renovation",
+    "name": "浴室タイル補修 Lv1",
+    "icon": "🛁",
+    "category": "BUILD",
+    "status": "locked",
+    "goalAmount": 150000,
+    "currentAmount": 0,
+    "donationUrl": "",
+    "shortDescription": "ひび割れたタイルを直して、カビのない清潔な浴室へ。",
+    "why": "浴室のタイルに複数のひびがあり、そこからカビが繁殖している。放置すると構造部分にまで影響が出る可能性がある。",
+    "outcome": "タイル補修＋防カビ処理で清潔で安全な浴室になる。太陽光温水器（solar-lv1）と連携して給湯システムも統合予定。",
+    "budgetBreakdown": [
+      { "label": "タイル（補修用・予備含む）", "amount": 30000 },
+      { "label": "防水・防カビ剤", "amount": 20000 },
+      { "label": "施工費・工具", "amount": 100000 }
+    ],
+    "beforeImage": "assets/placeholder_before.png",
+    "afterImage": "assets/placeholder_after.png",
+    "youtubeUrl": "",
+    "instagramUrl": "",
+    "updates": [
+      { "date": "2026-02-18", "text": "クエストロック中。太陽光温水器クエスト完了後に解放予定。" }
+    ]
+  },
+  {
+    "id": "woodwork-lv1",
+    "name": "木工ベースキャンプ設立",
+    "icon": "🪚",
+    "category": "BUILD",
+    "status": "active",
+    "goalAmount": 45000,
+    "currentAmount": 8000,
+    "donationUrl": "https://example.com/pay/woodwork-lv1",
+    "shortDescription": "DIYの武器庫を作る。道具があれば家は自分で直せる。",
+    "why": "大工・修繕系のクエストを進めるには基本的な木工道具が揃っていない。毎回レンタルか業者依頼で費用が膨らんでいる。",
+    "outcome": "電動ドリル・丸のこ・サンダー等の基本工具が揃い、以降のBUILDクエストのコストが大幅削減。DIY動画コンテンツの幅も広がる。",
+    "budgetBreakdown": [
+      { "label": "電動ドリルドライバー", "amount": 12000 },
+      { "label": "丸のこ（コード式）", "amount": 15000 },
+      { "label": "サンダー・クランプ類", "amount": 8000 },
+      { "label": "作業台・収納", "amount": 10000 }
+    ],
+    "beforeImage": "assets/placeholder_before.png",
+    "afterImage": "assets/placeholder_after.png",
+    "youtubeUrl": "",
+    "instagramUrl": "",
+    "updates": [
+      { "date": "2026-02-12", "text": "クエスト発生。まずドリルだけ自費で購入。残りは支援待ち。" },
+      { "date": "2026-02-18", "text": "最初の支援が届いた！ありがとう。丸のこ購入に近づいた。" }
+    ]
+  },
+  {
+    "id": "event-open-day-01",
+    "name": "第1回 Ienome 見学デー",
+    "icon": "🎪",
+    "category": "EVENT",
+    "status": "active",
+    "goalAmount": 20000,
+    "currentAmount": 5000,
+    "donationUrl": "https://example.com/pay/open-day-01",
+    "shortDescription": "実際に家に来て、現場を見て、一緒にDIYしよう。",
+    "why": "オンラインだけでなくリアルでつながる場を作りたい。家の現状をそのまま見せることで、より深い共感と参加を生み出したい。",
+    "outcome": "参加者が実際の家を体験。一緒にDIY作業ができる。コミュニティのリアルな接点が生まれる。",
+    "budgetBreakdown": [
+      { "label": "飲み物・軽食（参加者分）", "amount": 8000 },
+      { "label": "消耗品・工具補充", "amount": 7000 },
+      { "label": "記録用機材（SD等）", "amount": 5000 }
+    ],
+    "beforeImage": "assets/placeholder_before.png",
+    "afterImage": "assets/placeholder_after.png",
+    "youtubeUrl": "",
+    "instagramUrl": "",
+    "updates": [
+      { "date": "2026-02-18", "text": "イベントクエスト登録。日程は3月末を想定。" }
+    ]
+  }
+]

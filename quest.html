@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ienome World クエスト詳細">
+  <title>Quest Detail | Ienome World</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== ナビゲーション ========== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">⛏ IENOME</a>
+      <ul class="nav__links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="quests.html" class="active">QUESTS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== メインコンテンツ ========== -->
+  <main class="section">
+    <div class="container">
+
+      <!-- パンくず -->
+      <div class="breadcrumb">
+        <a href="index.html">HOME</a>
+        <span class="breadcrumb__sep">▶</span>
+        <a href="quests.html">QUESTS</a>
+        <span class="breadcrumb__sep">▶</span>
+        <!-- quest.js が名前を更新します -->
+        <span id="breadcrumb-name">QUEST DETAIL</span>
+      </div>
+
+      <!-- 2カラムレイアウト：メイン + サイドバー -->
+      <div class="quest-detail">
+
+        <!-- メインエリア（quest.js が挿入） -->
+        <div id="quest-detail">
+          <div class="state-message">
+            <p>[ LOADING<span class="loading-dots"></span> ]</p>
+          </div>
+        </div>
+
+        <!-- サイドバー：支援パネル（quest.js が挿入） -->
+        <aside id="quest-sidebar"></aside>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ========== フッター ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__links">
+        <a href="index.html">HOME</a>
+        <a href="quests.html">QUESTS</a>
+        <a href="about.html">ABOUT</a>
+        <a href="https://www.youtube.com/@IenomeWorld" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.instagram.com/ienome_world/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p>&copy; 2026 Ienome World. All quests are real.</p>
+    </div>
+  </footer>
+
+  <!-- JS: utils → quest の順で読み込む -->
+  <script src="js/utils.js"></script>
+  <script src="js/quest.js"></script>
+</body>
+</html>
